@@ -32,9 +32,9 @@ li a:hover {
     font-size: 35px;
     left: 25%;
     margin-top: 5%;
-    border: 2px solid;
+    border: 3px solid black;
     position: absolute;
-    
+    background-color: white;
 }
 
 #quote-text{
