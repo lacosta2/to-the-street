@@ -1,5 +1,5 @@
 body {
-    background: #23d5ab ;
+    background: #03989E ;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
@@ -42,15 +42,16 @@ li a:hover {
 }
 
 #defenses{
-    font-size: 20px;
+    font-size: 24px;
     float: left;
     text-decoration: none;
     max-width: 1100px;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-
 }
 
 h2 {
+    padding-left: 10px;
     float: left;
+
 }
