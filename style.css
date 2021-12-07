@@ -1,7 +1,9 @@
 body {
-    background: #03989E ;
+    
+    background-color: rgba(3 , 152, 158, 0.6);
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 #nav {
@@ -10,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
+    height: 70px;
 }
 li a {
     font-size: 25px;
@@ -28,13 +30,23 @@ li a:hover {
 
 #quote {
     text-align: center;
-    max-width: 800px;
+    max-width: 500px;
     font-size: 35px;
-    left: 25%;
-    margin-top: 5%;
-    border: 3px solid black;
+    left: 150px;
+    border: 3px solid white;
     position: absolute;
-    background-color: white;
+    
+}
+
+#quote2 {
+    text-align: center;
+    max-width: 600px;
+    font-size: 60px;
+    top:32.5%;
+    right: 215px;
+    position: absolute;
+    font-weight: 800;
+    
 }
 
 #quote-text{
@@ -55,3 +67,138 @@ h2 {
     float: left;
 
 }
+
+#banner{
+    margin-top: -70px;
+    height: 70px;
+    float:right;
+    padding-right: 15px;
+}
+
+#ticket {
+    height: 350px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 70px;
+}
+
+.container {
+    display: flex;
+    padding-left: 15%;
+    padding-top: 2%;
+    
+    
+}
+.container > div {
+    flex: 1;
+    
+}
+
+.container > div > h2 {
+    font-size: 50px;
+    text-align: center;
+    
+    max-width: 350px;
+}
+
+.container > div > h3 {
+    font-size: 20px;
+    padding-left: 12px;
+    text-align: center;
+    
+    max-width: 250px;
+    top: 185px;
+    position: absolute;
+}
+
+#right {
+    padding-left: 80px;
+}
+#guide-p {
+    font-size: 24px;
+    max-width: 1600px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#guide-ul {
+    font-size: 24px;
+    
+    max-width: 1550px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+}
+
+#guide-ul > li {
+    margin: 15px 0;
+    
+}
+
+/* all credits go to https://freefrontend.com/css-quote-styles/ for the following styling */
+.blockquote-wrapper {
+    display: flex;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+ .blockquote {
+     position: absolute;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 800;
+     color: #ffffff;
+     padding: 30px 0;
+     width: 100%;
+     max-width: 700px;
+     z-index: 1;
+     margin: 80px auto;
+     align-self: center;
+     border-top: solid 1px;
+     border-bottom: solid 1px;
+     left: 15%;
+     top: 25%;
+     
+     
+ }
+
+ .blockquote h1 {
+     position: relative;
+     color: #FFFFFF;
+     font-size: 20px;
+     font-weight: 800;
+     line-height: 1;
+     margin: 0;
+ }
+ 
+ .blockquote:after {
+     position: absolute;
+     content: "”";
+     color: rgba(255, 255, 255, 1);
+     font-size: 10rem;
+     line-height: 0;
+     bottom: -40px;
+     right: 30px;
+ }
+ 
+ @media all and (min-width: 600px) {
+     .blockquote h1 {
+         font-size: 50px;
+    }
+ 
+ }
+
+ .blockquote h4 {
+     position: relative;
+     color: #292a2b;
+     font-size: 1.4rem;
+     font-weight: normal;
+     line-height: 1;
+     margin: 0;
+     padding-top: 20px;
+     z-index: 1;
+ }
