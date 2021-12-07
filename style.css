@@ -124,13 +124,14 @@ li a:hover {
 .container3 {
     
     display: flex;
-    padding-left: 15%;
+    
+    padding-left: 6%;
     padding-bottom: 3%;
     padding-top: 2%;
 }
 .container3 > div {
     flex: 1;
-    
+    width: 400px;
 }
 
 #guide-p {
